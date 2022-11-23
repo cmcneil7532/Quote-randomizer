@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  /*center a child element*/
+  background-color: tan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+div {
+  display: block;
+}
+
+#quote-box {
+  background-color: white;
+  height: 275px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 3px 6px black;
+  border: 2px solid black;
+}
+
+#quote-box .quote-text {
+  text-align: center;
+  font-size: 40px;
+}
+
+#quote-box .quote-author {
+  float: right;
+  margin-right: 20px;
+  margin-top: 2em;
+  font-size: 20px;
+  font-style: italic;
+}
