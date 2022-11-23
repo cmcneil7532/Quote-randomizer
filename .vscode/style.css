@@ -39,3 +39,48 @@ div {
   font-size: 20px;
   font-style: italic;
 }
+
+#quote-box .buttons {
+  margin-top: 7em;
+  display: block;
+  width: 450px;
+}
+
+#quote-box .buttons .button {
+  outline: none;
+  height: 38px;
+  color: black;
+  background-color: tan;
+  border: none;
+  margin: 7px;
+  width: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#quote-box .buttons .button#linkedin,
+#quote-box .buttons .button#github {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 3px;
+  height: 30px;
+  width: 40px;
+}
+
+#quote-box .buttons .button#new-quote {
+  float: right;
+  width: 75px;
+}
+.footer {
+  margin-top: 300px;
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: black;
+  font-size: large;
+}
