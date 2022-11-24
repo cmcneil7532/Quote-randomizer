@@ -15,16 +15,17 @@ body {
   overflow: hidden;
 }
 div {
+  position: relative;
   display: block;
 }
 
 #quote-box {
   background-color: white;
-  height: 275px;
   width: 500px;
   border-radius: 10px;
   box-shadow: 3px 6px black;
   border: 2px solid black;
+  position: relative;
 }
 
 #quote-box .quote-text {
@@ -33,17 +34,18 @@ div {
 }
 
 #quote-box .quote-author {
-  float: right;
-  margin-right: 20px;
-  margin-top: 2em;
-  font-size: 20px;
-  font-style: italic;
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
 }
 
 #quote-box .buttons {
-  margin-top: 7em;
   display: block;
   width: 450px;
+  margin-bottom: 50px;
 }
 
 #quote-box .buttons .button {
